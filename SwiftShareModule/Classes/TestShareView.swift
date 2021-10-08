@@ -9,8 +9,8 @@
 import CoreGraphics
 import Foundation
 import UIKit
-import SwiftBaseModule
+import SwiftBaseModule //引入
 
 class TestShareView: UIView {
-    let testView: TestView?
+    let testView: TestView? = nil  //使用
 }
