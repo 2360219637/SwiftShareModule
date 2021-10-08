@@ -9,6 +9,7 @@
 import CoreGraphics
 import Foundation
 import UIKit
+import SwiftBaseModule
 
 class TestShareView: UIView {
     let testView: TestView?
