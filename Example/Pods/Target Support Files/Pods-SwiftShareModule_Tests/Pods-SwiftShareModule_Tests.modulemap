@@ -1,0 +1,6 @@
+framework module Pods_SwiftShareModule_Tests {
+  umbrella header "Pods-SwiftShareModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

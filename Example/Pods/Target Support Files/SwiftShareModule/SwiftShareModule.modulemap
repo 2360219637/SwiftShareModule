@@ -1,0 +1,6 @@
+framework module SwiftShareModule {
+  umbrella header "SwiftShareModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

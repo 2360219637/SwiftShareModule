@@ -1,0 +1,16 @@
+PODS:
+  - SwiftShareModule (0.1.0)
+
+DEPENDENCIES:
+  - SwiftShareModule (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftShareModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftShareModule: 8f6647f5da9b340b5cbf667c2db9d169293161e7
+
+PODFILE CHECKSUM: da86d319cca34045f6bdb619b2cf00255d150917
+
+COCOAPODS: 1.8.4
