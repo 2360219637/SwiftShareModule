@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065356A0D7ED8C8097C4C474A5C23505 /* SwiftShareModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 463ACA03280726054A6021782CB26AAE /* SwiftShareModule-dummy.m */; };
 		158B082C2574DD1EFBA45791E85E011E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		277D776DBEC6A07092BCA8D7D67400C7 /* Pods-SwiftShareModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E48A277ABEDEA68CB5B32C218D2CE /* Pods-SwiftShareModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DD921668E0A248C36CFBA187B37122A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		30C51B2B39E44679A05EB956D6FF565D /* Pods-SwiftShareModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB61AEB90D5F9861D6D09160B92B26D /* Pods-SwiftShareModule_Example-dummy.m */; };
-		41E352CB6B9E4FCE54CFE663F21C59D2 /* UIView+JHShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2D69C71563634A937D98723CDC24F /* UIView+JHShadow.swift */; };
-		533321F453FE1FA176708002340E48BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F65CE0063BF4C6CD7AAF0619F6DC870 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F26F2414D75906EA6D67BBCB042E7FA7 /* ShareManager.m */; };
 		5742D1DC53A2C0669E563DED380C27CD /* Pods-SwiftShareModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1154A9D6A043F52B83905081B511502 /* Pods-SwiftShareModule_Tests-dummy.m */; };
-		5D86A61E76A8564BE79EC0A490A86915 /* TestShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AE3EFEE76267D382860285A7ABF623 /* TestShareView.swift */; };
 		7FC43D3BCD0D73E405CBBC59639EDD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		893CA8658EECA56A29349345AD2E9C6F /* SwiftShareModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C15A3F5DED888F8FE81680E8C4781FD9 /* SwiftShareModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B815DC114B3BD4BF6C905686231312 /* ShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E43EE1F1E4D6AC2FB1E831C2F88C6264 /* ShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98142C2B51E2F41B1B025868722C8088 /* SwiftShareModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2190BAFB639B650DA6662C27A4725F2 /* SwiftShareModule-dummy.m */; };
 		BBA914B7A9A04166EAB4A2BEF83A0313 /* Pods-SwiftShareModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4596DA222B1FC93381B5C50E53A5312D /* Pods-SwiftShareModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0AD071A1ED16E7A3B0E96D0142D52A2 /* UIView+JHFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDBE3C45BB6E8DD4A5884A640F64590 /* UIView+JHFrame.swift */; };
+		D080A68B2D4519509ED7655CA495E0D8 /* TestShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFABA1E0761EAF21C88A48DD367EFCC /* TestShareView.swift */; };
+		F7B63E3EC5C79724B52FE7DA6E1AE627 /* SwiftShareModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5661437AE7140028BB119840A474DFF /* SwiftShareModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,45 +41,45 @@
 /* Begin PBXFileReference section */
 		0097CD9341B2B724A510F907B61D2102 /* Pods-SwiftShareModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftShareModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		105DE0C9C827A76FFA5F8F223F02B938 /* Pods-SwiftShareModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftShareModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		173FA4BA45DB708DB347437020529028 /* SwiftShareModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftShareModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1CF2971A1B76E677C2BE23AFC6BE62AD /* Pods-SwiftShareModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftShareModule_Tests.modulemap"; sourceTree = "<group>"; };
+		1DBF88FAA162FB5D8DEC9D682DBB4F51 /* SwiftShareModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftShareModule-Info.plist"; sourceTree = "<group>"; };
+		1DC899C4D804E13713B8C6FA40B7FFEA /* SwiftShareModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftShareModule.modulemap; sourceTree = "<group>"; };
 		21BCFB5F5658B1CBF2E32D9E7C5E96BA /* Pods_SwiftShareModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftShareModule_Tests.framework; path = "Pods-SwiftShareModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFFAB646A58BBF06F16886EA29686C5 /* Pods_SwiftShareModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftShareModule_Example.framework; path = "Pods-SwiftShareModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4C0FA2F326AE36F8C20804302E9A89 /* SwiftShareModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftShareModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		31F80E92A60C2EBCDB0C1E0C1AC84AEF /* Pods-SwiftShareModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftShareModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3DB61AEB90D5F9861D6D09160B92B26D /* Pods-SwiftShareModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftShareModule_Example-dummy.m"; sourceTree = "<group>"; };
+		3E9CC00AAAAA953E7F7A4A2EC8A95419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		456604D2C49A25FE81F67AE3E4767A78 /* Pods-SwiftShareModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftShareModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4596DA222B1FC93381B5C50E53A5312D /* Pods-SwiftShareModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftShareModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		463ACA03280726054A6021782CB26AAE /* SwiftShareModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftShareModule-dummy.m"; sourceTree = "<group>"; };
-		53AE3EFEE76267D382860285A7ABF623 /* TestShareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestShareView.swift; path = SwiftShareModule/Classes/TestShareView.swift; sourceTree = "<group>"; };
-		6F2A54F9A5462C5CCFF60C5604CA8DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		49BEBA65D470ABA17DE42CDF0BF65065 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		717E48A277ABEDEA68CB5B32C218D2CE /* Pods-SwiftShareModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftShareModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76EA6A5B5168CBAEF30268FB89F700CD /* SwiftShareModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftShareModule-prefix.pch"; sourceTree = "<group>"; };
 		801C93EBFA10FBE6FE02B55A98A7D68D /* Pods-SwiftShareModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftShareModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8280DF9F4CF3F95C769C995C0BCC9B85 /* SwiftShareModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftShareModule-Info.plist"; sourceTree = "<group>"; };
 		8943D0C4905DD4EAC36665782B3E4552 /* Pods-SwiftShareModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftShareModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		8F374C01555946F61F2F1286EEC1CABF /* Pods-SwiftShareModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftShareModule_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E93ACCF9EBFD4E0080F0DC60446F302 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9FF53614DD8E344BF3831165E874232C /* Pods-SwiftShareModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftShareModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1154A9D6A043F52B83905081B511502 /* Pods-SwiftShareModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftShareModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		B11C574CC137D625D9D5C198472F972F /* Pods-SwiftShareModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftShareModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5F944F325D90217B03A0ADEC9B04F90 /* SwiftShareModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftShareModule.modulemap; sourceTree = "<group>"; };
-		C0EB0B7A8471EAAF6F2A1F038EF766D8 /* SwiftShareModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftShareModule-prefix.pch"; sourceTree = "<group>"; };
-		C15A3F5DED888F8FE81680E8C4781FD9 /* SwiftShareModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftShareModule-umbrella.h"; sourceTree = "<group>"; };
-		CF87CE35388BA959C042C3C372A46EDD /* SwiftShareModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftShareModule.xcconfig; sourceTree = "<group>"; };
-		D7B2D69C71563634A937D98723CDC24F /* UIView+JHShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+JHShadow.swift"; path = "SwiftShareModule/Classes/UIView+JHShadow.swift"; sourceTree = "<group>"; };
+		D2190BAFB639B650DA6662C27A4725F2 /* SwiftShareModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftShareModule-dummy.m"; sourceTree = "<group>"; };
 		D8978AC999E5C950DA4E4926A14CC8B6 /* Pods-SwiftShareModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftShareModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFDBE3C45BB6E8DD4A5884A640F64590 /* UIView+JHFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+JHFrame.swift"; path = "SwiftShareModule/Classes/UIView+JHFrame.swift"; sourceTree = "<group>"; };
+		E04C1DA6D4B542EB2B32D954C5CB18BE /* SwiftShareModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftShareModule.xcconfig; sourceTree = "<group>"; };
+		E43EE1F1E4D6AC2FB1E831C2F88C6264 /* ShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShareManager.h; path = SwiftShareModule/Classes/ShareManager.h; sourceTree = "<group>"; };
+		E5661437AE7140028BB119840A474DFF /* SwiftShareModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftShareModule-umbrella.h"; sourceTree = "<group>"; };
+		EBFABA1E0761EAF21C88A48DD367EFCC /* TestShareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestShareView.swift; path = SwiftShareModule/Classes/TestShareView.swift; sourceTree = "<group>"; };
 		F1F1512E6C188FF712E0078176E382EF /* SwiftShareModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftShareModule.framework; path = SwiftShareModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26F2414D75906EA6D67BBCB042E7FA7 /* ShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShareManager.m; path = SwiftShareModule/Classes/ShareManager.m; sourceTree = "<group>"; };
 		FF30A42F6FCE8646428EDE45F606DB4C /* Pods-SwiftShareModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftShareModule_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C7A49A39C623F8C69FE7C90D43A967F /* Frameworks */ = {
+		7DE2E955B590DF8BFB59432406B58868 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533321F453FE1FA176708002340E48BB /* Foundation.framework in Frameworks */,
+				2DD921668E0A248C36CFBA187B37122A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 		44955BB239D24B0088568DC8C62C73A6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E344B13A029F9F24B86A3428C7658325 /* SwiftShareModule */,
+				EBAF2ED40410FF5D699E78FC84C5C897 /* SwiftShareModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -159,12 +159,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A6C719863850D3ED66732A430CE4A3B7 /* Pod */ = {
+		5F9A8D10A4589632A2B6BDC9C436E19A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F2A54F9A5462C5CCFF60C5604CA8DDF /* LICENSE */,
-				9E93ACCF9EBFD4E0080F0DC60446F302 /* README.md */,
-				2F4C0FA2F326AE36F8C20804302E9A89 /* SwiftShareModule.podspec */,
+				1DC899C4D804E13713B8C6FA40B7FFEA /* SwiftShareModule.modulemap */,
+				E04C1DA6D4B542EB2B32D954C5CB18BE /* SwiftShareModule.xcconfig */,
+				D2190BAFB639B650DA6662C27A4725F2 /* SwiftShareModule-dummy.m */,
+				1DBF88FAA162FB5D8DEC9D682DBB4F51 /* SwiftShareModule-Info.plist */,
+				76EA6A5B5168CBAEF30268FB89F700CD /* SwiftShareModule-prefix.pch */,
+				E5661437AE7140028BB119840A474DFF /* SwiftShareModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftShareModule";
+			sourceTree = "<group>";
+		};
+		B28F7E1460E94B250B65951C713F2277 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49BEBA65D470ABA17DE42CDF0BF65065 /* LICENSE */,
+				3E9CC00AAAAA953E7F7A4A2EC8A95419 /* README.md */,
+				173FA4BA45DB708DB347437020529028 /* SwiftShareModule.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -198,41 +212,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E344B13A029F9F24B86A3428C7658325 /* SwiftShareModule */ = {
+		EBAF2ED40410FF5D699E78FC84C5C897 /* SwiftShareModule */ = {
 			isa = PBXGroup;
 			children = (
-				53AE3EFEE76267D382860285A7ABF623 /* TestShareView.swift */,
-				EFDBE3C45BB6E8DD4A5884A640F64590 /* UIView+JHFrame.swift */,
-				D7B2D69C71563634A937D98723CDC24F /* UIView+JHShadow.swift */,
-				A6C719863850D3ED66732A430CE4A3B7 /* Pod */,
-				E614208D58D1B77633FB00D6478AFC85 /* Support Files */,
+				E43EE1F1E4D6AC2FB1E831C2F88C6264 /* ShareManager.h */,
+				F26F2414D75906EA6D67BBCB042E7FA7 /* ShareManager.m */,
+				EBFABA1E0761EAF21C88A48DD367EFCC /* TestShareView.swift */,
+				B28F7E1460E94B250B65951C713F2277 /* Pod */,
+				5F9A8D10A4589632A2B6BDC9C436E19A /* Support Files */,
 			);
 			name = SwiftShareModule;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E614208D58D1B77633FB00D6478AFC85 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5F944F325D90217B03A0ADEC9B04F90 /* SwiftShareModule.modulemap */,
-				CF87CE35388BA959C042C3C372A46EDD /* SwiftShareModule.xcconfig */,
-				463ACA03280726054A6021782CB26AAE /* SwiftShareModule-dummy.m */,
-				8280DF9F4CF3F95C769C995C0BCC9B85 /* SwiftShareModule-Info.plist */,
-				C0EB0B7A8471EAAF6F2A1F038EF766D8 /* SwiftShareModule-prefix.pch */,
-				C15A3F5DED888F8FE81680E8C4781FD9 /* SwiftShareModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftShareModule";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3A2FFF1FC43E200D89A4EC20304B7960 /* Headers */ = {
+		74F4B6037C9C4DCEA764BA135E372263 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893CA8658EECA56A29349345AD2E9C6F /* SwiftShareModule-umbrella.h in Headers */,
+				86B815DC114B3BD4BF6C905686231312 /* ShareManager.h in Headers */,
+				F7B63E3EC5C79724B52FE7DA6E1AE627 /* SwiftShareModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		64A19BB3B4245020D6261BF9B18C19EC /* SwiftShareModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFD9C68998436DC06E0EBCEA7DC9C923 /* Build configuration list for PBXNativeTarget "SwiftShareModule" */;
+			buildConfigurationList = E444594F4C3633B8459EE437860D227E /* Build configuration list for PBXNativeTarget "SwiftShareModule" */;
 			buildPhases = (
-				3A2FFF1FC43E200D89A4EC20304B7960 /* Headers */,
-				C43D50EBEC74C6343DC0888EAF78AADB /* Sources */,
-				4C7A49A39C623F8C69FE7C90D43A967F /* Frameworks */,
-				F9C127DDF4113308B4C51EB216DE3911 /* Resources */,
+				74F4B6037C9C4DCEA764BA135E372263 /* Headers */,
+				64AC4F461178695F508446C14CD49E3D /* Sources */,
+				7DE2E955B590DF8BFB59432406B58868 /* Frameworks */,
+				33D40171558D82E099D0939FE4F2F16A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -348,14 +349,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F639BC87DAED416E280F47B28D2B7D2F /* Resources */ = {
+		33D40171558D82E099D0939FE4F2F16A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9C127DDF4113308B4C51EB216DE3911 /* Resources */ = {
+		F639BC87DAED416E280F47B28D2B7D2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,14 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C43D50EBEC74C6343DC0888EAF78AADB /* Sources */ = {
+		64AC4F461178695F508446C14CD49E3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065356A0D7ED8C8097C4C474A5C23505 /* SwiftShareModule-dummy.m in Sources */,
-				5D86A61E76A8564BE79EC0A490A86915 /* TestShareView.swift in Sources */,
-				C0AD071A1ED16E7A3B0E96D0142D52A2 /* UIView+JHFrame.swift in Sources */,
-				41E352CB6B9E4FCE54CFE663F21C59D2 /* UIView+JHShadow.swift in Sources */,
+				4F65CE0063BF4C6CD7AAF0619F6DC870 /* ShareManager.m in Sources */,
+				98142C2B51E2F41B1B025868722C8088 /* SwiftShareModule-dummy.m in Sources */,
+				D080A68B2D4519509ED7655CA495E0D8 /* TestShareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +442,40 @@
 			};
 			name = Debug;
 		};
-		68E805F3E019E91DED8872A436AA8B23 /* Release */ = {
+		480EBD573400A8A49668D7FB6ED7334D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF87CE35388BA959C042C3C372A46EDD /* SwiftShareModule.xcconfig */;
+			baseConfigurationReference = E04C1DA6D4B542EB2B32D954C5CB18BE /* SwiftShareModule.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftShareModule/SwiftShareModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftShareModule/SwiftShareModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SwiftShareModule/SwiftShareModule.modulemap";
+				PRODUCT_MODULE_NAME = SwiftShareModule;
+				PRODUCT_NAME = SwiftShareModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8749BF48665DA91860C6C1E2E50C86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04C1DA6D4B542EB2B32D954C5CB18BE /* SwiftShareModule.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -473,37 +504,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A787077F0689B1188C8E72CA968714F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF87CE35388BA959C042C3C372A46EDD /* SwiftShareModule.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftShareModule/SwiftShareModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftShareModule/SwiftShareModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SwiftShareModule/SwiftShareModule.modulemap";
-				PRODUCT_MODULE_NAME = SwiftShareModule;
-				PRODUCT_NAME = SwiftShareModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -750,20 +750,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFD9C68998436DC06E0EBCEA7DC9C923 /* Build configuration list for PBXNativeTarget "SwiftShareModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A787077F0689B1188C8E72CA968714F5 /* Debug */,
-				68E805F3E019E91DED8872A436AA8B23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E183D13DC57E68D307CD84E503DAAEAE /* Build configuration list for PBXNativeTarget "Pods-SwiftShareModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E1EE3FE8D3CB36BF9443F73E2C78DEC /* Debug */,
 				C4024A1763F755EE1CF2264D7AC4DF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E444594F4C3633B8459EE437860D227E /* Build configuration list for PBXNativeTarget "SwiftShareModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480EBD573400A8A49668D7FB6ED7334D /* Debug */,
+				B8749BF48665DA91860C6C1E2E50C86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

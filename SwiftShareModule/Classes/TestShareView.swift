@@ -6,11 +6,9 @@
 //  Copyright © 2018年 孙宇. All rights reserved.
 //
 
-import CoreGraphics
-import Foundation
 import UIKit
-import SwiftBaseModule //引入
+//import SwiftBaseModule
 
-class TestShareView: UIView {
-    let testView: TestView? = nil  //使用
+public class TestShareView: UIView {
+//    let a: TestView? = nil
 }

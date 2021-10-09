@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ShareManager.h"
 
 FOUNDATION_EXPORT double SwiftShareModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char SwiftShareModuleVersionString[];
